@@ -14,12 +14,14 @@
 * [Тестовые данные для OpenJDK11 ](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
 * [Тестовые данные для приложения Приложение KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 
-# В качестве тестовых данных использовались данные из артефактов:
+### В качестве тестовых данных использовались данные из артефактов:
 
 Данне для тестирования OpenJDK11:
 
 Команда:
+
 java -version
+
 Ответ:
 openjdk version "11.0.5" 2019-10-15
 OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
@@ -43,6 +45,6 @@ OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)
 * c2bc778a-1cb9-46c6-b435-0489649d2a42
 * 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
 
-# Тестирование производилось в следующем окружении:
+### Тестирование производилось в следующем окружении:
 * 64 - разрядная ОС Window 7
 * Java 11
