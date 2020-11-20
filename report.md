@@ -1,7 +1,8 @@
 # Отчет о тестировании приложение KeyValidator.
 ## Краткое описание
-### 20.11.20-21.11.20 было проведено Unit testing приложения KeyValidator
-На тестирование затрачено: 2 часа
+### 20.11.20 было проведено тестирование установки OpenJDK11 и Unit testing приложения KeyValidator
+На тестирование затрачено: 1 часа
+
 В результатет тестирования вявлены следующие дефект:
 * [Bug report 1](https://github.com/SergeyQA13/Start-Java-1.1/issues/1#issue-745955752)
 * [Bug report 2](https://github.com/SergeyQA13/Start-Java-1.1/issues/2#issuecomment-729920065)
@@ -10,9 +11,21 @@
 
 ## Описание процесса тестирования
 ### В процессе тестирования использовался следующий артефакт:
-Чек-лист с ключами для проверок
+* [Тестовые данные для OpenJDK11 ](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
+* [Тестовые данные для приложения Приложение KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 
-В качестве тестовых данных использовались данные:
+# В качестве тестовых данных использовались данные из артефактов:
+
+Данне для тестирования OpenJDK11:
+
+Команда:
+java -version
+Ответ:
+openjdk version "11.0.5" 2019-10-15
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)
+
+Данне для тестирования приложения KeyValidator:
 
 Валидные ключи:
 
@@ -30,6 +43,6 @@
 * c2bc778a-1cb9-46c6-b435-0489649d2a42
 * 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
 
-Тестирование производилось в следующем окружении:
+# Тестирование производилось в следующем окружении:
 * 64 - разрядная ОС Window 7
 * Java 11
