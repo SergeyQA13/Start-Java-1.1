@@ -3,10 +3,8 @@
 ### 20.11.20 было проведено тестирование установки OpenJDK11 и Unit testing приложения KeyValidator
 На тестирование затрачено: 1 часа
 
-В результатет тестирования вявлены следующие дефект:
-* [Bug report 1](https://github.com/SergeyQA13/Start-Java-1.1/issues/1#issue-745955752)
-* [Bug report 2](https://github.com/SergeyQA13/Start-Java-1.1/issues/2#issuecomment-729920065)
-* [Bug report 3](https://github.com/SergeyQA13/Start-Java-1.1/issues/3#issue-745971767)
+В результатет тестирования выявлены следующие дефекты:
+* [Описание дефекта](https://github.com/SergeyQA13/Start-Java-1.1/issues/4#issue-749082095)
 
 
 ## Описание процесса тестирования
